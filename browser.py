@@ -7,7 +7,7 @@ class MyWebBrowser(QMainWindow):
     def __init__(self, *args, **kwargs):
         super(MyWebBrowser, self).__init__(*args, **kwargs)
 
-        self.setWindowTitle("My PyQt5 Browser")
+        self.setWindowTitle("Web Browser V1")
         self.resize(1200, 800) 
 
         self.home_url = "https://www.google.com"  
